@@ -12,4 +12,4 @@
 <br>
 <br>
 <h5>Acesse:</h5>
-<a href="https://raw.githubusercontent.com/sidneydevfrontend/projeto-jokenpo/refs/heads/main/bg-jokenpo.jpg)">Link do Projeto</a>
+<a href="https://sidneydevfrontend.github.io/projeto-jokenpo/">Link do Projeto</a>

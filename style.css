@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url("./bg-jokenpo.jpg");
+    background: url("https://raw.githubusercontent.com/sidneydevfrontend/projeto-jokenpo/refs/heads/main/bg-jokenpo.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -138,6 +138,7 @@ footer a {
 footer a:hover {
     color: #f6c8c0;
 }
+
 
 
 

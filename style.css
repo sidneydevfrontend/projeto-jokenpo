@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Sora', sans-serif;
+}
+
+body {
+    background: url("./bg-jokenpo.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.container {
+    padding: 15px;
+    margin-top: 40px;
+    background-color: #56222226;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid #fe8d5584;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    margin: 30px 0px;
+    display: flex;
+    gap: 40px;
+
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+#rock {
+    background-color: #fe8d55;
+}
+
+#paper {
+    background-color: #c04833;
+}
+
+#scissors {
+    background-color: #562222;
+    width: 83px;
+}
+
+h1 {
+    color: #fcd4c1;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px #f0b4b4;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fcd4c1;
+    text-align: center;
+    text-shadow: 1px 1px 2px #562222;
+  
+}
+
+.your-score span {
+    color:#fcd4c1;
+    font-size: 30px;
+}
+
+.machine-score span {
+    color:#fcd4c1;
+    font-size: 30px;
+}
+
+.reload-container {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.reload-container:hover {
+    opacity: 0.8;
+}
+
+.noise {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.15;
+    background-image: url('https://sidneydesigner.com.br/wp-content/uploads/2023/08/noise-gif-square-anim.gif');
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+footer {
+    background-color: #56222226;
+    backdrop-filter: blur(10px);
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100vw;
+}
+
+footer span {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;    
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #f6c8c0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
